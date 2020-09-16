@@ -8,14 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+
     <section class="header">
         <img src="/images/logo.svg" alt="" class="logo">
         <h1>We are launching <span class="soon">soon!</span> </h1>
         <p>Subscribe and get notified</p>
-        <input type="text" placeholder="Your email address...">
-        <button>Notify Me</button>
+        
+        <div class="flex">
+            <div id="input">
+                <input type="text" placeholder="example@email/com"  class="input-error">
+                <small>Please provide a valid email address</small>
+            </div>
 
+            <button type="submit">Notify Me</button>
+
+       </div>
     </section>
+
 
     <section class="dashboard">
         <img src="/images/illustration-dashboard.png" alt="">
@@ -23,14 +33,16 @@
     </section>
 
     <footer class="media-handle">
-        <i class="fa fa-facebook" aria-hidden="true" id="media"></i>
-        <i class="fa fa-twitter" aria-hidden="true" id="media"></i>
-        <i class="fa fa-instagram" aria-hidden="true" id="media"></i>
+        <a href="#" id="media"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" id="media"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
+        <a href="#"id="media"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
 
-       <p class="copyright"> 
+        <p class="copyright"> 
            <i class="fa fa-copyright" aria-hidden="true" id="copyyright-icon"></i>Copyright Ping. All rights served.
         </p> 
     </footer>
     
+    
+<script src="/js/script.js"></script>
 </body>
 </html>
